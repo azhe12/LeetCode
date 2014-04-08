@@ -1,4 +1,4 @@
-OBJ:=RemoveDuplicatesFromSortedArray RemoveElement LengthOfLastWord
+OBJ:=RemoveDuplicatesFromSortedArray RemoveElement LengthOfLastWord PlusOne
 
 
 .PHONY:clean
@@ -8,6 +8,8 @@ RemoveDuplicatesFromSortedArray:RemoveDuplicatesFromSortedArray.cpp
 RemoveElement:RemoveElement.cpp
 
 LengthOfLastWord:LengthOfLastWord.cpp
+
+PlusOne:PlusOne.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
