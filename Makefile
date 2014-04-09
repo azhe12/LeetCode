@@ -3,7 +3,8 @@ OBJ:=	\
 	RemoveElement LengthOfLastWord \
 	PlusOne \
 	RemoveDuplicatesFromSortedList \
-	SameTree
+	SameTree \
+	SymmetricTree
 
 
 .PHONY:clean
@@ -21,6 +22,8 @@ PlusOne:PlusOne.cpp
 RemoveDuplicatesFromSortedList:RemoveDuplicatesFromSortedList.cpp
 
 SameTree:SameTree.cpp
+
+SymmetricTree:SymmetricTree.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
