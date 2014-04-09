@@ -2,7 +2,8 @@ OBJ:=	\
 	RemoveDuplicatesFromSortedArray \
 	RemoveElement LengthOfLastWord \
 	PlusOne \
-	RemoveDuplicatesFromSortedList
+	RemoveDuplicatesFromSortedList \
+	SameTree
 
 
 .PHONY:clean
@@ -18,6 +19,8 @@ LengthOfLastWord:LengthOfLastWord.cpp
 PlusOne:PlusOne.cpp
 
 RemoveDuplicatesFromSortedList:RemoveDuplicatesFromSortedList.cpp
+
+SameTree:SameTree.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
