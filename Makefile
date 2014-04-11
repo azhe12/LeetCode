@@ -4,7 +4,9 @@ OBJ:=	\
 	PlusOne \
 	RemoveDuplicatesFromSortedList \
 	SameTree \
-	SymmetricTree
+	SymmetricTree \
+	MaximumDepthOfBinaryTree \
+	BalancedBinaryTree
 
 
 .PHONY:clean
@@ -24,6 +26,10 @@ RemoveDuplicatesFromSortedList:RemoveDuplicatesFromSortedList.cpp
 SameTree:SameTree.cpp
 
 SymmetricTree:SymmetricTree.cpp
+
+MaximumDepthOfBinaryTree:MaximumDepthOfBinaryTree.cpp
+
+BalancedBinaryTree:BalancedBinaryTree.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
