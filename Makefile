@@ -10,7 +10,8 @@ OBJ:=	\
 	MinimumDepthOfBinaryTree \
 	PathSum \
 	TwoSum \
-	ReverseInteger
+	ReverseInteger \
+	StringToInteger
 
 
 .PHONY:clean
@@ -42,6 +43,8 @@ PathSum:PathSum.cpp
 TwoSum:TwoSum.cpp
 
 ReverseInteger:ReverseInteger.cpp
+
+StringToInteger:StringToInteger.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
