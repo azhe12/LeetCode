@@ -12,7 +12,8 @@ OBJ:=	\
 	TwoSum \
 	ReverseInteger \
 	StringToInteger \
-	PalindromeNumber
+	PalindromeNumber \
+	RomanToInteger
 
 
 .PHONY:clean
@@ -48,6 +49,8 @@ ReverseInteger:ReverseInteger.cpp
 StringToInteger:StringToInteger.cpp
 
 PalindromeNumber:PalindromeNumber.cpp
+
+RomanToInteger:RomanToInteger.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
