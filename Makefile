@@ -13,7 +13,8 @@ OBJ:=	\
 	ReverseInteger \
 	StringToInteger \
 	PalindromeNumber \
-	RomanToInteger
+	RomanToInteger	\
+	LongestCommonPrefix
 
 
 .PHONY:clean
@@ -51,6 +52,8 @@ StringToInteger:StringToInteger.cpp
 PalindromeNumber:PalindromeNumber.cpp
 
 RomanToInteger:RomanToInteger.cpp
+
+LongestCommonPrefix:LongestCommonPrefix.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
