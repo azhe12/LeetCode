@@ -14,8 +14,8 @@ OBJ:=	\
 	StringToInteger \
 	PalindromeNumber \
 	RomanToInteger	\
-	LongestCommonPrefix\
-	RemoveNthNodeFromEndofList
+	LongestCommonPrefix	\
+	tst
 
 
 .PHONY:clean
@@ -56,6 +56,5 @@ RomanToInteger:RomanToInteger.cpp
 
 LongestCommonPrefix:LongestCommonPrefix.cpp
 
-RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
 clean:
 	rm -rf $(OBJ) *.o
