@@ -14,7 +14,8 @@ OBJ:=	\
 	StringToInteger \
 	PalindromeNumber \
 	RomanToInteger	\
-	LongestCommonPrefix
+	LongestCommonPrefix	\
+	tst
 
 
 .PHONY:clean
