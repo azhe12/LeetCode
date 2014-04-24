@@ -11,7 +11,10 @@ OBJ:=	\
 	PathSum \
 	TwoSum \
 	ReverseInteger \
-	StringToInteger	\
+	StringToInteger \
+	PalindromeNumber \
+	RomanToInteger	\
+	LongestCommonPrefix\
 	RemoveNthNodeFromEndofList
 
 
@@ -47,7 +50,12 @@ ReverseInteger:ReverseInteger.cpp
 
 StringToInteger:StringToInteger.cpp
 
-RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
+PalindromeNumber:PalindromeNumber.cpp
 
+RomanToInteger:RomanToInteger.cpp
+
+LongestCommonPrefix:LongestCommonPrefix.cpp
+
+RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
 clean:
 	rm -rf $(OBJ) *.o
