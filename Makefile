@@ -11,7 +11,8 @@ OBJ:=	\
 	PathSum \
 	TwoSum \
 	ReverseInteger \
-	StringToInteger
+	StringToInteger	\
+	RemoveNthNodeFromEndofList
 
 
 .PHONY:clean
@@ -45,6 +46,8 @@ TwoSum:TwoSum.cpp
 ReverseInteger:ReverseInteger.cpp
 
 StringToInteger:StringToInteger.cpp
+
+RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
