@@ -15,7 +15,8 @@ OBJ:=	\
 	PalindromeNumber \
 	RomanToInteger	\
 	LongestCommonPrefix	\
-	ValidParentheses
+	ValidParentheses	\
+	MergeTwoSortedLists
 
 
 
@@ -58,6 +59,8 @@ RomanToInteger:RomanToInteger.cpp
 LongestCommonPrefix:LongestCommonPrefix.cpp
 
 ValidParentheses:ValidParentheses.cpp
+
+MergeTwoSortedLists:MergeTwoSortedLists.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
