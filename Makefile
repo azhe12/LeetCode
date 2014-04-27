@@ -16,7 +16,9 @@ OBJ:=	\
 	RomanToInteger	\
 	LongestCommonPrefix	\
 	ValidParentheses	\
-	MergeTwoSortedLists
+	MergeTwoSortedLists	\
+	SwapNodesinPairs	\
+	SearchInsertPosition
 
 
 
@@ -61,6 +63,10 @@ LongestCommonPrefix:LongestCommonPrefix.cpp
 ValidParentheses:ValidParentheses.cpp
 
 MergeTwoSortedLists:MergeTwoSortedLists.cpp
+
+SwapNodesinPairs:SwapNodesinPairs.cpp
+
+SearchInsertPosition:SearchInsertPosition.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
