@@ -18,7 +18,8 @@ OBJ:=	\
 	ValidParentheses	\
 	MergeTwoSortedLists	\
 	SwapNodesinPairs	\
-	SearchInsertPosition
+	SearchInsertPosition	\
+	RemoveNthNodeFromEndofList
 
 
 
@@ -67,6 +68,8 @@ MergeTwoSortedLists:MergeTwoSortedLists.cpp
 SwapNodesinPairs:SwapNodesinPairs.cpp
 
 SearchInsertPosition:SearchInsertPosition.cpp
+
+RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
