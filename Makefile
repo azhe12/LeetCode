@@ -19,7 +19,8 @@ OBJ:=	\
 	MergeTwoSortedLists	\
 	SwapNodesinPairs	\
 	SearchInsertPosition	\
-	RemoveNthNodeFromEndofList
+	RemoveNthNodeFromEndofList	\
+	ValidSudoku
 
 
 
@@ -70,6 +71,8 @@ SwapNodesinPairs:SwapNodesinPairs.cpp
 SearchInsertPosition:SearchInsertPosition.cpp
 
 RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
+
+ValidSudoku:ValidSudoku.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
