@@ -16,14 +16,15 @@ Note: The sequence of integers will be represented as a string.
 #include <string>
 #include <cstring>
 #include <cstdio>
+#include <sstream>
 
 using namespace std;
 
 class Solution {
 public:
     string countAndSay(int n) {
-        string s = new String();
-        string s_new = new String();
+        string s;// = new String();
+        string s_new;// = new String();
         int j = 0;
         int j_prev = 0;
         int j_len = 0;
@@ -46,26 +47,38 @@ public:
 
                 j_len = j - j_prev;
                 
+#if 0
                 char buf1[2];
                 char buf2[2];
                 snprintf(buf1, sizeof(buf1), "%d", j_len);
                 snprintf(buf2, sizeof(buf2), "%c", s[j_prev]);
-                s_new += string(buf1) + string(buf2);
+                //s_new += string(buf1) + string(buf2);
+#endif
+                ostringstream buf1;
+                ostringstream buf2;
+                buf1<<j_len;
+                buf2<<s[j_prev];
+                s_new += buf1.str() + buf2.str();
+
                 j_prev = j;
                 j++;
                 j_len = j - j_prev;
             }
             if (j_prev < s.size()) {
+#if 0
                 char buf1[2];
                 char buf2[2];
                 snprintf(buf1, sizeof(buf1), "%d", j_len);
                 snprintf(buf2, sizeof(buf2), "%c", s[j_prev]);
                 s_new += string(buf1) + string(buf2);
+#endif
+                ostringstream buf1;
+                ostringstream buf2;
+                buf1<<j_len;
+                buf2<<s[j_prev];
+                s_new += buf1.str() + buf2.str();
             }
             s = s_new;
-            &s_new = NULL;
-            delete &s_new;
-            string& s_new = new string();
             s_new = "";
         }
         return s;
