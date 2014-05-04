@@ -20,7 +20,8 @@ OBJ:=	\
 	SwapNodesinPairs	\
 	SearchInsertPosition	\
 	RemoveNthNodeFromEndofList	\
-	ValidSudoku
+	ValidSudoku	\
+	CountandSay
 
 
 
@@ -73,6 +74,8 @@ SearchInsertPosition:SearchInsertPosition.cpp
 RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
 
 ValidSudoku:ValidSudoku.cpp
+
+CountandSay:CountandSay.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
