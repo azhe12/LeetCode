@@ -22,7 +22,8 @@ OBJ:=	\
 	RemoveNthNodeFromEndofList			\
 	ValidSudoku							\
 	CountandSay							\
-	UniquePaths
+	UniquePaths							\
+	ClimbingStairs
 
 
 
@@ -79,6 +80,8 @@ ValidSudoku:ValidSudoku.cpp
 CountandSay:CountandSay.cpp
 
 UniquePaths:UniquePaths.cpp
+
+ClimbingStairs:ClimbingStairs.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
