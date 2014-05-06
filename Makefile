@@ -1,27 +1,28 @@
 OBJ:=	\
-	RemoveDuplicatesFromSortedArray \
-	RemoveElement LengthOfLastWord \
-	PlusOne \
-	RemoveDuplicatesFromSortedList \
-	SameTree \
-	SymmetricTree \
-	MaximumDepthOfBinaryTree \
-	BalancedBinaryTree \
-	MinimumDepthOfBinaryTree \
-	PathSum \
-	TwoSum \
-	ReverseInteger \
-	StringToInteger \
-	PalindromeNumber \
-	RomanToInteger	\
-	LongestCommonPrefix	\
-	ValidParentheses	\
-	MergeTwoSortedLists	\
-	SwapNodesinPairs	\
-	SearchInsertPosition	\
-	RemoveNthNodeFromEndofList	\
-	ValidSudoku	\
-	CountandSay
+	RemoveDuplicatesFromSortedArray 	\
+	RemoveElement LengthOfLastWord 		\
+	PlusOne 							\
+	RemoveDuplicatesFromSortedList 		\
+	SameTree 							\
+	SymmetricTree 						\
+	MaximumDepthOfBinaryTree 			\
+	BalancedBinaryTree 					\
+	MinimumDepthOfBinaryTree 			\
+	PathSum 							\
+	TwoSum 								\
+	ReverseInteger 						\
+	StringToInteger 					\
+	PalindromeNumber 					\
+	RomanToInteger						\
+	LongestCommonPrefix					\
+	ValidParentheses					\
+	MergeTwoSortedLists					\
+	SwapNodesinPairs					\
+	SearchInsertPosition				\
+	RemoveNthNodeFromEndofList			\
+	ValidSudoku							\
+	CountandSay							\
+	UniquePaths
 
 
 
@@ -76,6 +77,8 @@ RemoveNthNodeFromEndofList:RemoveNthNodeFromEndofList.cpp
 ValidSudoku:ValidSudoku.cpp
 
 CountandSay:CountandSay.cpp
+
+UniquePaths:UniquePaths.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
