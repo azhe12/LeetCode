@@ -23,7 +23,8 @@ OBJ:=	\
 	ValidSudoku							\
 	CountandSay							\
 	UniquePaths							\
-	ClimbingStairs
+	ClimbingStairs						\
+	RemoveDuplicatesfromSortedArrayII
 
 
 
@@ -83,5 +84,6 @@ UniquePaths:UniquePaths.cpp
 
 ClimbingStairs:ClimbingStairs.cpp
 
+RemoveDuplicatesfromSortedArrayII:RemoveDuplicatesfromSortedArrayII.cpp
 clean:
 	rm -rf $(OBJ) *.o
