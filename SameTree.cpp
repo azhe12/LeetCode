@@ -28,12 +28,9 @@ public:
         if (p->val == q->val) { /*val相等则继续遍历left和right*/
             if (isSameTree(p->left, q->left) && isSameTree(p->right, q->right)) {
                 return 1;
-            } else {
-                return 0;
             }
-        } else {
-            return 0;
         }
+        return 0;
     }
    
     void treeTraversal(TreeNode *root) {    /*遍历二叉树*/

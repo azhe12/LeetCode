@@ -24,7 +24,8 @@ OBJ:=	\
 	CountandSay							\
 	UniquePaths							\
 	ClimbingStairs						\
-	RemoveDuplicatesfromSortedArrayII
+	RemoveDuplicatesfromSortedArrayII	\
+	MergeSortedArray
 
 
 
@@ -83,6 +84,8 @@ CountandSay:CountandSay.cpp
 UniquePaths:UniquePaths.cpp
 
 ClimbingStairs:ClimbingStairs.cpp
+
+MergeSortedArray:MergeSortedArray.cpp
 
 RemoveDuplicatesfromSortedArrayII:RemoveDuplicatesfromSortedArrayII.cpp
 clean:

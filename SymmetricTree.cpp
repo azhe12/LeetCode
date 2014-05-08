@@ -28,11 +28,19 @@ public:
             if (p->val == q->val) { /*判断val*/
                 if (isSymmetricTwo(p->left, q->right)) {    /*递归p的左子树和q的右子树*/
                     return isSymmetricTwo(p->right, q->left);   /*递归p的右子树和q的左子树*/
+                }
+            }
+#if 0
+            if (p->val == q->val) { /*判断val*/
+                if (isSymmetricTwo(p->left, q->right)) {    /*递归p的左子树和q的右子树*/
+                    return isSymmetricTwo(p->right, q->left);   /*递归p的右子树和q的左子树*/
                 } else
                     return 0;
             } else 
                 return 0;
+#endif
         }
+        return 0;
     }
 
     bool isSymmetric(TreeNode *root) {
