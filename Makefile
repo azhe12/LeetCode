@@ -25,7 +25,9 @@ OBJ:=	\
 	UniquePaths							\
 	ClimbingStairs						\
 	RemoveDuplicatesfromSortedArrayII	\
-	MergeSortedArray
+	MergeSortedArray					\
+	PascalsTriangleII					\
+	BestTimetoBuyandSellStock
 
 
 
@@ -87,6 +89,11 @@ ClimbingStairs:ClimbingStairs.cpp
 
 MergeSortedArray:MergeSortedArray.cpp
 
+PascalsTriangleII:PascalsTriangleII.cpp
+
 RemoveDuplicatesfromSortedArrayII:RemoveDuplicatesfromSortedArrayII.cpp
+
+BestTimetoBuyandSellStock:BestTimetoBuyandSellStock.cpp
+
 clean:
 	rm -rf $(OBJ) *.o
