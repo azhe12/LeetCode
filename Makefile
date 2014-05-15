@@ -27,7 +27,8 @@ OBJ:=	\
 	RemoveDuplicatesfromSortedArrayII	\
 	MergeSortedArray					\
 	PascalsTriangleII					\
-	BestTimetoBuyandSellStock
+	BestTimetoBuyandSellStock			\
+	ValidPalindrome
 
 
 
@@ -94,6 +95,8 @@ PascalsTriangleII:PascalsTriangleII.cpp
 RemoveDuplicatesfromSortedArrayII:RemoveDuplicatesfromSortedArrayII.cpp
 
 BestTimetoBuyandSellStock:BestTimetoBuyandSellStock.cpp
+
+ValidPalindrome:ValidPalindrome.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
