@@ -28,7 +28,12 @@ OBJ:=	\
 	MergeSortedArray					\
 	PascalsTriangleII					\
 	BestTimetoBuyandSellStock			\
-	ValidPalindrome
+	ValidPalindrome						\
+	AddTwoNumbers						\
+	IntegertoRoman						\
+	3Sum								\
+	3SumClosest							\
+	LetterCombinationsofaPhoneNumber
 
 
 
@@ -97,6 +102,16 @@ RemoveDuplicatesfromSortedArrayII:RemoveDuplicatesfromSortedArrayII.cpp
 BestTimetoBuyandSellStock:BestTimetoBuyandSellStock.cpp
 
 ValidPalindrome:ValidPalindrome.cpp
+
+AddTwoNumbers:AddTwoNumbers.cpp
+
+IntegertoRoman:IntegertoRoman.cpp
+
+3Sum:3Sum.cpp
+
+3SumClosest:3SumClosest.cpp
+
+LetterCombinationsofaPhoneNumber:LetterCombinationsofaPhoneNumber.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
