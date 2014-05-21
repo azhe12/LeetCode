@@ -33,7 +33,8 @@ OBJ:=	\
 	IntegertoRoman						\
 	3Sum								\
 	3SumClosest							\
-	LetterCombinationsofaPhoneNumber
+	LetterCombinationsofaPhoneNumber	\
+	4Sum
 
 
 
@@ -112,6 +113,9 @@ IntegertoRoman:IntegertoRoman.cpp
 3SumClosest:3SumClosest.cpp
 
 LetterCombinationsofaPhoneNumber:LetterCombinationsofaPhoneNumber.cpp
+
+4Sum:4Sum.cpp
+
 
 clean:
 	rm -rf $(OBJ) *.o
