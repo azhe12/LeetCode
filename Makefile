@@ -35,7 +35,8 @@ OBJ:=	\
 	3SumClosest							\
 	LetterCombinationsofaPhoneNumber	\
 	GenerateParentheses					\
-	4Sum
+	4Sum								\
+	MergekSortedLists
 
 
 
@@ -114,6 +115,9 @@ IntegertoRoman:IntegertoRoman.cpp
 3SumClosest:3SumClosest.cpp
 
 LetterCombinationsofaPhoneNumber:LetterCombinationsofaPhoneNumber.cpp
+
+MergekSortedLists:MergekSortedLists.cpp
+
 
 clean:
 	rm -rf $(OBJ) *.o
