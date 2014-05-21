@@ -33,7 +33,8 @@ OBJ:=	\
 	IntegertoRoman						\
 	3Sum								\
 	3SumClosest							\
-	LetterCombinationsofaPhoneNumber
+	LetterCombinationsofaPhoneNumber	\
+	GenerateParentheses
 
 
 
@@ -112,6 +113,8 @@ IntegertoRoman:IntegertoRoman.cpp
 3SumClosest:3SumClosest.cpp
 
 LetterCombinationsofaPhoneNumber:LetterCombinationsofaPhoneNumber.cpp
+
+GenerateParentheses:GenerateParentheses.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
