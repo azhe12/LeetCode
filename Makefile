@@ -38,7 +38,9 @@ OBJ:=	\
 	4Sum								\
 	MergekSortedLists					\
 	Permutations						\
-	PermutationsII
+	PermutationsII						\
+	Anagrams							\
+	Pow
 
 
 
@@ -123,6 +125,10 @@ MergekSortedLists:MergekSortedLists.cpp
 Permutations:Permutations.cpp
 
 PermutationsII:PermutationsII.cpp
+
+Anagrams:Anagrams.cpp
+
+Pow:Pow.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
