@@ -36,7 +36,9 @@ OBJ:=	\
 	LetterCombinationsofaPhoneNumber	\
 	GenerateParentheses					\
 	4Sum								\
-	MergekSortedLists
+	MergekSortedLists					\
+	Permutations						\
+	PermutationsII
 
 
 
@@ -118,6 +120,9 @@ LetterCombinationsofaPhoneNumber:LetterCombinationsofaPhoneNumber.cpp
 
 MergekSortedLists:MergekSortedLists.cpp
 
+Permutations:Permutations.cpp
+
+PermutationsII:PermutationsII.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
