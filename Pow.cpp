@@ -1,6 +1,7 @@
 /*  azhe
  *  2014/5/28
  *  https://oj.leetcode.com/problems/powx-n/
+ *  Note: 二分法
  * */
 #include <iostream>
 
