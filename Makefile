@@ -40,7 +40,10 @@ OBJ:=	\
 	Permutations						\
 	PermutationsII						\
 	Anagrams							\
-	Pow
+	Pow									\
+	MaximumSubarray						\
+	JumpGame							\
+	JumpGameII
 
 
 
@@ -129,6 +132,13 @@ PermutationsII:PermutationsII.cpp
 Anagrams:Anagrams.cpp
 
 Pow:Pow.cpp
+
+MaximumSubarray:MaximumSubarray.cpp
+
+JumpGame:JumpGame.cpp
+
+JumpGameII:JumpGameII.cpp
+
 
 clean:
 	rm -rf $(OBJ) *.o
