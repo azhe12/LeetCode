@@ -43,7 +43,10 @@ OBJ:=	\
 	Pow									\
 	MaximumSubarray						\
 	JumpGame							\
-	JumpGameII
+	JumpGameII							\
+	SpiralMatrix						\
+	SpiralMatrixII						\
+	RotateList
 
 
 
@@ -139,6 +142,11 @@ JumpGame:JumpGame.cpp
 
 JumpGameII:JumpGameII.cpp
 
+SpiralMatrix:SpiralMatrix.cpp
+
+SpiralMatrixII:SpiralMatrixII.cpp
+
+RotateList:RotateList.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
