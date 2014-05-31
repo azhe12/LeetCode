@@ -46,7 +46,9 @@ OBJ:=	\
 	JumpGameII							\
 	SpiralMatrix						\
 	SpiralMatrixII						\
-	RotateList
+	RotateList							\
+	UniquePathsII						\
+	MinimumPathSum
 
 
 
@@ -147,6 +149,10 @@ SpiralMatrix:SpiralMatrix.cpp
 SpiralMatrixII:SpiralMatrixII.cpp
 
 RotateList:RotateList.cpp
+
+UniquePathsII:UniquePathsII.cpp
+
+MinimumPathSum:MinimumPathSum.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
