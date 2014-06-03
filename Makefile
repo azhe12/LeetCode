@@ -48,7 +48,11 @@ OBJ:=	\
 	SpiralMatrixII						\
 	RotateList							\
 	UniquePathsII						\
-	MinimumPathSum
+	MinimumPathSum						\
+	SetMatrixZeroes						\
+	Subsets								\
+	SubsetsII							\
+	WordSearch
 
 
 
@@ -153,6 +157,14 @@ RotateList:RotateList.cpp
 UniquePathsII:UniquePathsII.cpp
 
 MinimumPathSum:MinimumPathSum.cpp
+
+SetMatrixZeroes:SetMatrixZeroes.cpp
+
+Subsets:Subsets.cpp
+
+SubsetsII:SubsetsII.cpp
+
+WordSearch:WordSearch.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
