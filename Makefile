@@ -52,7 +52,10 @@ OBJ:=	\
 	SetMatrixZeroes						\
 	Subsets								\
 	SubsetsII							\
-	WordSearch
+	WordSearch							\
+	PartitionList						\
+	DecodeWays							\
+	UniqueBinarySearchTrees
 
 
 
@@ -165,6 +168,12 @@ Subsets:Subsets.cpp
 SubsetsII:SubsetsII.cpp
 
 WordSearch:WordSearch.cpp
+
+PartitionList:PartitionList.cpp
+
+DecodeWays:DecodeWays.cpp
+
+UniqueBinarySearchTrees:UniqueBinarySearchTrees.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
