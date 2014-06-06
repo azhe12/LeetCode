@@ -43,9 +43,12 @@ public:
             return false;
         if (word.size() == 0)
             return false;
-        //vector<char> v(c);
-        //cout<<"debug: r, v "<<r<<" "<<c<<endl;
-        vector<vector<bool> > flag(r, vector<bool>(c, false));    /*是否经过的标志*/
+        cout<<"r, c "<<r<<" "<<c<<endl;
+        vector<bool> v;
+        v.resize(c, false);
+        //vector<vector<bool> > flag(r, vector<bool>(c, false));    [>是否经过的标志<]
+        vector<vector<bool> > flag;    /*是否经过的标志*/
+        flag.resize(r, v);
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
                 if (board[i][j] == word[0]) {   /*第一个字母匹配*/
