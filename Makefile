@@ -55,7 +55,8 @@ OBJ:=	\
 	WordSearch							\
 	PartitionList						\
 	DecodeWays							\
-	UniqueBinarySearchTrees
+	UniqueBinarySearchTrees				\
+	SimplifyPath
 
 
 
@@ -174,6 +175,8 @@ PartitionList:PartitionList.cpp
 DecodeWays:DecodeWays.cpp
 
 UniqueBinarySearchTrees:UniqueBinarySearchTrees.cpp
+
+SimplifyPath:SimplifyPath.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
