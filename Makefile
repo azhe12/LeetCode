@@ -56,7 +56,9 @@ OBJ:=	\
 	PartitionList						\
 	DecodeWays							\
 	UniqueBinarySearchTrees				\
-	SimplifyPath
+	SimplifyPath						\
+	BinaryTreeLevelOrderTraversalII		\
+	FlattenBinaryTreetoLinkedList
 
 
 
@@ -177,6 +179,10 @@ DecodeWays:DecodeWays.cpp
 UniqueBinarySearchTrees:UniqueBinarySearchTrees.cpp
 
 SimplifyPath:SimplifyPath.cpp
+
+BinaryTreeLevelOrderTraversalII:BinaryTreeLevelOrderTraversalII.cpp
+
+FlattenBinaryTreetoLinkedList:FlattenBinaryTreetoLinkedList.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
