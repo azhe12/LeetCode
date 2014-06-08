@@ -1,3 +1,7 @@
+/*  azhe
+ *  2014/6/8
+ *  Note: 以maxProfitDpFromHead() 为准
+ * */
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -78,6 +82,23 @@ public:
         }
         return maxProfit;
     }
+
+    /*  2014/6/8
+     *  1. 一直记录已经扫描过的最小值，然后不断计算当前i与最小值的差，
+     *  2. 并记录其中最大的差价，即为结果
+     * */
+    int maxProfitDpFromHead(vector<int> &prices)
+    {
+        if (prices.size() == 0)
+            return 0;
+        int maxProfit = 0;
+        int minPrice = prices[0];
+        for (int i = 1; i < prices.size(); i++) {
+            maxProfit = max(maxProfit, prices[i] - minPrice);
+            minPrice = min(minPrice, prices[i]);
+        }
+        return maxProfit;
+    }
 };
 
 int main()
@@ -108,5 +129,6 @@ int main()
     Solution so;
     //cout<<so.maxProfit(prices)<<endl;
     cout<<so.maxProfitDP(prices)<<endl;
+    cout<<so.maxProfitDpFromHead(prices)<<endl;
     return 0;
 }
