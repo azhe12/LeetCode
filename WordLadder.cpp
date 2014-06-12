@@ -32,7 +32,7 @@ public:
             Map partMap;
             for (unordered_set<string>::iterator it = dict.begin(); it != dict.end(); it++) {
                 string tmp = *it;
-                tmp.erase(tmp.begin()+i);
+                tmp.erase(i, 1);
                 partMap[tmp].push_back(*it);
             }
 #if 0
