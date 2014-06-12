@@ -58,7 +58,8 @@ OBJ:=	\
 	UniqueBinarySearchTrees				\
 	SimplifyPath						\
 	BinaryTreeLevelOrderTraversalII		\
-	FlattenBinaryTreetoLinkedList
+	FlattenBinaryTreetoLinkedList		\
+	WordLadder
 
 
 
@@ -183,6 +184,9 @@ SimplifyPath:SimplifyPath.cpp
 BinaryTreeLevelOrderTraversalII:BinaryTreeLevelOrderTraversalII.cpp
 
 FlattenBinaryTreetoLinkedList:FlattenBinaryTreetoLinkedList.cpp
+
+WordLadder:WordLadder.cpp
+	g++ -g -std=c++0x -o WordLadder WordLadder.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
