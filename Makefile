@@ -59,7 +59,9 @@ OBJ:=	\
 	SimplifyPath						\
 	BinaryTreeLevelOrderTraversalII		\
 	FlattenBinaryTreetoLinkedList		\
-	WordLadder
+	WordLadder							\
+	PalindromePartitioning				\
+	PalindromePartitioningII
 
 
 
@@ -187,6 +189,10 @@ FlattenBinaryTreetoLinkedList:FlattenBinaryTreetoLinkedList.cpp
 
 WordLadder:WordLadder.cpp
 	g++ -g -std=c++0x -o $@ $^
+
+PalindromePartitioning:PalindromePartitioning.cpp
+
+PalindromePartitioningII:PalindromePartitioningII.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
