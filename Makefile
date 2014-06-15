@@ -61,7 +61,11 @@ OBJ:=	\
 	FlattenBinaryTreetoLinkedList		\
 	WordLadder							\
 	PalindromePartitioning				\
-	PalindromePartitioningII
+	PalindromePartitioningII			\
+	LongestPalindromicSubstring			\
+	ReverseNodesink-Group				\
+	ImplementstrStr						\
+	DivideTwoIntegers
 
 
 
@@ -193,6 +197,14 @@ WordLadder:WordLadder.cpp
 PalindromePartitioning:PalindromePartitioning.cpp
 
 PalindromePartitioningII:PalindromePartitioningII.cpp
+
+LongestPalindromicSubstring:LongestPalindromicSubstring.cpp
+
+ReverseNodesink-Group:ReverseNodesink-Group.cpp
+
+ImplementstrStr:ImplementstrStr.cpp
+
+DivideTwoIntegers:DivideTwoIntegers.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
