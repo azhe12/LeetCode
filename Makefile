@@ -65,7 +65,8 @@ OBJ:=	\
 	LongestPalindromicSubstring			\
 	ReverseNodesink-Group				\
 	ImplementstrStr						\
-	DivideTwoIntegers
+	DivideTwoIntegers					\
+	SearchinRotatedSortedArray
 
 
 
@@ -205,6 +206,8 @@ ReverseNodesink-Group:ReverseNodesink-Group.cpp
 ImplementstrStr:ImplementstrStr.cpp
 
 DivideTwoIntegers:DivideTwoIntegers.cpp
+
+SearchinRotatedSortedArray:SearchinRotatedSortedArray.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
