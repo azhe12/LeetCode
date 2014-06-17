@@ -66,7 +66,9 @@ OBJ:=	\
 	ReverseNodesink-Group				\
 	ImplementstrStr						\
 	DivideTwoIntegers					\
-	SearchinRotatedSortedArray
+	SearchinRotatedSortedArray			\
+	SearchforaRange						\
+	SudokuSolver
 
 
 
@@ -208,6 +210,10 @@ ImplementstrStr:ImplementstrStr.cpp
 DivideTwoIntegers:DivideTwoIntegers.cpp
 
 SearchinRotatedSortedArray:SearchinRotatedSortedArray.cpp
+
+SearchforaRange:SearchforaRange.cpp
+
+SudokuSolver:SudokuSolver.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
