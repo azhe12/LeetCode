@@ -222,4 +222,4 @@ TrappingRainWater:TrappingRainWater.cpp
 MultiplyStrings:MultiplyStrings.cpp
 
 clean:
-	rm -rf $(OBJ) *.o
+	rm -rf $(OBJ) *.o a.out
