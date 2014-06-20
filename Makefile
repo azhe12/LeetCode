@@ -68,7 +68,9 @@ OBJ:=	\
 	DivideTwoIntegers					\
 	SearchinRotatedSortedArray			\
 	SearchforaRange						\
-	SudokuSolver
+	SudokuSolver						\
+	TrappingRainWater					\
+	MultiplyStrings
 
 
 
@@ -214,6 +216,10 @@ SearchinRotatedSortedArray:SearchinRotatedSortedArray.cpp
 SearchforaRange:SearchforaRange.cpp
 
 SudokuSolver:SudokuSolver.cpp
+
+TrappingRainWater:TrappingRainWater.cpp
+
+MultiplyStrings:MultiplyStrings.cpp
 
 clean:
 	rm -rf $(OBJ) *.o
