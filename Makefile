@@ -70,7 +70,8 @@ OBJ:=	\
 	SearchforaRange						\
 	SudokuSolver						\
 	TrappingRainWater					\
-	MultiplyStrings
+	MultiplyStrings						\
+	NQueensOneSolution
 
 
 
@@ -220,6 +221,8 @@ SudokuSolver:SudokuSolver.cpp
 TrappingRainWater:TrappingRainWater.cpp
 
 MultiplyStrings:MultiplyStrings.cpp
+
+NQueensOneSolution:NQueensOneSolution.cpp
 
 clean:
 	rm -rf $(OBJ) *.o a.out
