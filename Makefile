@@ -71,7 +71,11 @@ OBJ:=	\
 	SudokuSolver						\
 	TrappingRainWater					\
 	MultiplyStrings						\
-	NQueensOneSolution
+	NQueensOneSolution					\
+	NQueens								\
+	NQueensII							\
+	MergeIntervals						\
+	InsertInterval
 
 
 
@@ -223,6 +227,14 @@ TrappingRainWater:TrappingRainWater.cpp
 MultiplyStrings:MultiplyStrings.cpp
 
 NQueensOneSolution:NQueensOneSolution.cpp
+
+NQueens:NQueens.cpp
+
+NQueensII:NQueensII.cpp
+
+MergeIntervals:MergeIntervals.cpp
+
+InsertInterval:InsertInterval.cpp
 
 clean:
 	rm -rf $(OBJ) *.o a.out
