@@ -71,6 +71,11 @@ OBJ:=	\
 	SudokuSolver						\
 	TrappingRainWater					\
 	MultiplyStrings						\
+	NQueensOneSolution					\
+	NQueens								\
+	NQueensII							\
+	MergeIntervals						\
+	InsertInterval						\
 	SqrtX								\
 	SortColors							\
 	MinimumWindowSubstring
@@ -223,12 +228,6 @@ SudokuSolver:SudokuSolver.cpp
 TrappingRainWater:TrappingRainWater.cpp
 
 MultiplyStrings:MultiplyStrings.cpp
-
-SqrtX:SqrtX.cpp
-
-SortColors:SortColors.cpp
-
-MinimumWindowSubstring:MinimumWindowSubstring.cpp
 
 clean:
 	rm -rf $(OBJ) *.o a.out
