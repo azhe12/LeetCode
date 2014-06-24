@@ -71,7 +71,9 @@ OBJ:=	\
 	SudokuSolver						\
 	TrappingRainWater					\
 	MultiplyStrings						\
-	SqrtX
+	SqrtX								\
+	SortColors							\
+	MinimumWindowSubstring
 
 
 
@@ -223,6 +225,10 @@ TrappingRainWater:TrappingRainWater.cpp
 MultiplyStrings:MultiplyStrings.cpp
 
 SqrtX:SqrtX.cpp
+
+SortColors:SortColors.cpp
+
+MinimumWindowSubstring:MinimumWindowSubstring.cpp
 
 clean:
 	rm -rf $(OBJ) *.o a.out
