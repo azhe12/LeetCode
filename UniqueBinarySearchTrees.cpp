@@ -3,6 +3,8 @@
  *  https://oj.leetcode.com/problems/unique-binary-search-trees/
  *  Note: DP+DFS
  *  1. 节点个数相等的BFS, 他们组成树的情况也相等。因为节点内的数字是有序的。
+ *  2. DP[n] 表示node总数为n时，BST的可能情况
+ *  3. BST的数目只和node数目有关，因此使用dp保存
  * */
 #include <iostream>
 #include <vector>
