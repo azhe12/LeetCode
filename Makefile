@@ -78,7 +78,8 @@ OBJ:=	\
 	InsertInterval						\
 	SqrtX								\
 	SortColors							\
-	MinimumWindowSubstring
+	MinimumWindowSubstring				\
+	GrayCode
 
 
 
@@ -228,6 +229,9 @@ SudokuSolver:SudokuSolver.cpp
 TrappingRainWater:TrappingRainWater.cpp
 
 MultiplyStrings:MultiplyStrings.cpp
+
+GrayCode:GrayCode.cpp
+
 
 clean:
 	rm -rf $(OBJ) *.o a.out
