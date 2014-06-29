@@ -79,7 +79,8 @@ OBJ:=	\
 	SqrtX								\
 	SortColors							\
 	MinimumWindowSubstring				\
-	GrayCode
+	GrayCode							\
+	ConvertSortedListtoBinarySearchTree
 
 
 
@@ -232,6 +233,7 @@ MultiplyStrings:MultiplyStrings.cpp
 
 GrayCode:GrayCode.cpp
 
+ConvertSortedListtoBinarySearchTree:ConvertSortedListtoBinarySearchTree.cpp
 
 clean:
 	rm -rf $(OBJ) *.o a.out
