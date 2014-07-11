@@ -17,7 +17,7 @@ public:
             return binarySearch(A, l, mid-1, target);
         }
     }
-
+    //更优答案参考: http://www.cnblogs.com/lautsie/p/3235760.html
     vector<int> searchRange(int A[], int n, int target) {
         int pos = -1;
         pos = binarySearch(A, 0, n-1, target);

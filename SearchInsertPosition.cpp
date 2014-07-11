@@ -9,6 +9,7 @@ using namespace std;
 
 class Solution {
 public:
+    //更优答案O(lgN) http://blog.csdn.net/maqingli87/article/details/8009281
     int searchInsert(int A[], int n, int target) {
         int i;
 

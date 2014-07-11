@@ -21,12 +21,12 @@ public:
         }
 
         max = A[n-1];
-        for (int i = n-1; i >= 0; i--) {
+        for (int i = n-1; i >= 0; i--) {//从右边遍历，找出每个槽左边的最大值
             if (A[i] > max)
                 max = A[i];
             rightMax[i] = max;
         }
-        for (int i = 0; i < n; i++) {   //从左边遍历，找出每个槽左边的最大值
+        for (int i = 0; i < n; i++) {   //从左边遍历，找出每个槽可储水量
             int high = min(leftMax[i], rightMax[i]) - A[i];
             if (high > 0)
                 sum += high;

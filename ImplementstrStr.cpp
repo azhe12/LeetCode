@@ -42,14 +42,14 @@ public:
         char * s1 = haystack;
         char * s2 = needle;
         const char *p=s1;
-const size_t len = strlen(s2);
-for (;(p=strchr(p,*s2)) != 0;p++)
-{
-if(strncmp(p,s2,len)==0)
-return (char*)p;
-}
-return (0);
-  }
+        const size_t len = strlen(s2);
+        for (;(p=strchr(p,*s2)) != 0;p++)
+        {
+            if(strncmp(p,s2,len)==0)
+                return (char*)p;
+        }
+        return (0);
+    }
 
 };
 
